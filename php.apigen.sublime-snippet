@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+/**
+* ${1:Description Of Module}
+*
+* @param ${2:Parameter}
+*
+* @example
+* <code>
+* ${3:Useage Example}
+* </code>
+*
+* @return ${4:Return}
+*
+* @since   ${5:2014-24-11}
+* @author  Deac Karns <deac@sdicg.com> 
+**/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apigen</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

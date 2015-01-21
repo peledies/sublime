@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#${1:HEX}', endColorstr='#${2:HEX}'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#$1), to(#$2)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #$1,  #$2); /* for firefox 3.6+ */ 
+background-image: -o-linear-gradient(top, #$1, #$2); /* for opera 11.10+ */
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+ <tabTrigger>gradient</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.css</scope>
+</snippet>

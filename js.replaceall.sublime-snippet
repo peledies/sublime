@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[//replaceall, HACKY! DO NOT USE IN PRODUCTION CODE!
+my_haystack = (function replaceall(haystack, needle, replace) {
+  while (haystack.indexOf(needle) > 0) {
+    haystack = haystack.replace(needle, replace);
+  }
+  return haystack;
+})(my_haystack, 'my_needle', 'my_replace'); ]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+ <tabTrigger>replaceall</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

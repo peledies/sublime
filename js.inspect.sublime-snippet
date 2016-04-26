@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[var util = require('util');
+console.log(util.inspect(${1:this}, false, null));]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+ <tabTrigger>inspect</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

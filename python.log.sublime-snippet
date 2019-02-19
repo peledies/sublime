@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+# BEGIN Console Logging #
+from logging import warning
+warning("------> %s <------" % (${1:'EXAMPLE'}))
+# END Console logging #
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+ <tabTrigger>log</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.python</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+# BEGIN Debug method logging #
+from inspect import stack
+from logging import warning
+warning("------> %s.%s <------" % (self.__class__.__name__, stack()[2][3]))
+# END Debug method logging #
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+ <tabTrigger>trace</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.python</scope>
+</snippet>

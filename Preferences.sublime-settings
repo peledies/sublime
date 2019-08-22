@@ -1,6 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
+	"color_scheme": "Packages/Colorsublime - Themes/Blackboard.tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"folder_exclude_patterns":

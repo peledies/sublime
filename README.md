@@ -1,10 +1,11 @@
-# sublime_snippets
-My Sublime Text Snippets
+# Sublime Settings and Snippets
+This includes common snippets as well as my syntax specific settings for sublime text 3.
 
 
 ### Create Symlink
+removes your existing `User` directory for sublime text 3 and replaces it with this repo.
 ```
-ln -s ~/sublime_snippets ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/snippets
+rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User; ln -nfs ~/sublime/ ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 ```
 
 ### CLI support for sublime

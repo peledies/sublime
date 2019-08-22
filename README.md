@@ -9,4 +9,6 @@ rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User; ln -nfs ~/
 ```
 
 ### CLI support for sublime
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+```
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+```

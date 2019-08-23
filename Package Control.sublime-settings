@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ApacheConf",
+		"Colorsublime",
+		"Emmet",
+		"ES6-Toolkit",
+		"JavaScriptNext - ES6 Syntax",
+		"Laravel Blade Highlighter",
+		"Package Control",
+		"Syntax Highlighting for Sass"
+	]
+}

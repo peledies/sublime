@@ -1,6 +1,5 @@
 *.cache
 *.last-run
 *.merged-ca-bundle
-*.sublime-settings
 *.user-ca-bundle
 oscrypto-ca-bundle.crt

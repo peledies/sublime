@@ -62,4 +62,5 @@
         each theme check gutter_icon_themes folder in Anaconda package.
     */
     "anaconda_gutter_theme": "bright",
-}
+     "anaconda_linter_show_errors_on_save": false,
+ }
